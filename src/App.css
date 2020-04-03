@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.Error-logo {
+  margin-left: -300px;
+  /* position: relative; */
+  height: 550px;
+  margin-top: -25px;
+  display: block;
+}
+
+.show-body {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 30%;
+}
+
+.App-header {
+  background-color: #e6241e;
+  height: 175px;
+  padding: 20px;
+  color: #222;
+}
+
+.App-footer {
+  background-color: #e6241e;
+  height: auto;
+  padding: auto;
+  color: #222;
+}
+
+.App-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+cite {
+  font-weight: bold;
+}
+table {
+  align-content: center;
+  margin: auto;
+}
+td {
+  padding: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+.cap-first-letter:first-letter {
+  text-transform: capitalize;
+}
+.col-sm-6,
+col-md-4 {
+  border: 1px;
+}
+
+.card-title {
+  color: #e40d00;
+}
+
+.card-title:hover {
+  color: blue;
+}
+
+.showlink {
+  padding: 0.4rem 0.8rem;
+  background-color: white;
+  border-radius: 3px;
+  color: #e6241e;
+  text-decoration: none !important;
+}
+
+.showlink-body {
+  padding: 0.2rem 0.8rem;
+  background-color: #e40d00;
+  border-radius: 2px;
+  color: white;
+  text-decoration: none !important;
+}
+
+.showlink-body:hover {
+  background-color: transparent;
+  color: #e40d00;
+  border: 2px solid #e6241e;
+}
+
+.showlink:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+li {
+  padding: 20px;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+ul a {
+  color: rgb(239, 83, 81);
+  text-decoration: none !important;
+}
+
+ul a:hover {
+  background-color: transparent;
+  color: blue;
+}
+
+ul {
+  list-style: none;
+}
