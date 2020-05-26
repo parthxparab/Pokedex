@@ -19,7 +19,7 @@ const App = () => {
     <Router>
       <div className="App">
         <header className="App-header">
-          <Link to="/">
+          <Link to="/Pokedex">
             {/* <a href="/"> */}
             <img
               src={logo}
@@ -81,7 +81,7 @@ const App = () => {
               component={withRouter(PokemonList)}
             />
             <Route path="/pokemon/:id" component={withRouter(Pokemon)} />
-            <Route exact path="/" component={withRouter(HomePage)} />
+            <Route exact path="/Pokedex" component={withRouter(HomePage)} />
             <Route path="*" component={NoMatch} status={404} />
           </Switch>
         </div>
